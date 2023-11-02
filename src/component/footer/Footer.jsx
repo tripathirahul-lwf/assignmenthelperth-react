@@ -71,7 +71,7 @@ const Footer = () => {
                 <div className="disc">
                     <p>
                         <strong>Disclaimer : </strong>
-                        All academic content provided by nursingassignmenthelp.au, including assignments, essays, papers, and presentations, is intended for reference only. We strictly disapprove of plagiarism and expect users to use these resources for their own writing purposes.
+                        All academic content provided by assignmenthelperth.au, including assignments, essays, papers, and presentations, is intended for reference only. We strictly disapprove of plagiarism and expect users to use these resources for their own writing purposes.
                     </p>
                 </div>
             </div>

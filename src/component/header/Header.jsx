@@ -4,17 +4,46 @@ import './header.css'
 const Header = () => {
     const [isSticked, setIsSticked] = useState(false);
 
-     useEffect(() =>{
-        const handleScroll = () =>{
-            if (window.scrollY > 50){
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 50) {
                 setIsSticked(true);
             }
-            else{
+            else {
                 setIsSticked(false);
             }
         }
 
         window.addEventListener('scroll', handleScroll)
+    });
+    /**
+     * Mobile nav toggle
+     */
+    const mobileNavShow = document.querySelector('.mobile-nav-show');
+    const mobileNavHide = document.querySelector('.mobile-nav-hide');
+    document.querySelectorAll('.mobile-nav-toggle').forEach(el => {
+        el.addEventListener('click', function (event) {
+            event.preventDefault();
+            mobileNavToogle();
+        })
+    });
+    function mobileNavToogle() {
+        document.querySelector('body').classList.toggle('mobile-nav-active');
+        mobileNavShow.classList.toggle('d-none');
+        mobileNavHide.classList.toggle('d-none');
+    }
+    /**
+     * Hide mobile nav on same-page/hash links
+     */
+    document.querySelectorAll('#navbar a').forEach(navbarlink => {
+        if (!navbarlink.hash) return;
+        let section = document.querySelector(navbarlink.hash);
+        if (!section) return;
+        navbarlink.addEventListener('click', () => {
+            if (document.querySelector('.mobile-nav-active')) {
+                mobileNavToogle();
+            }
+        });
     });
 
 
@@ -35,6 +64,7 @@ const Header = () => {
                 </div>
             </section >
 
+           
             <header id="header" className={`${isSticked ? "header sticked" : "header"} d-flex align-items-center`}>
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
                     <a href="index.html" className="logo d-flex align-items-center">
@@ -51,7 +81,7 @@ const Header = () => {
                     </nav>
 
                     <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-                    <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+                    <i className="mobile-nav-toggle mobile-nav-hide bi bi-x"></i>
 
                 </div>
             </header>
