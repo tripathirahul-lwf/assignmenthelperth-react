@@ -110,3 +110,16 @@
 .footer .credits a {
     color: #fff;
 }
+
+.disc{
+    padding: 10px 0;
+}
+.bg{
+    background: #007b6d;
+}
+.disc{
+    color: #fff;
+}
+.disc p{
+    margin-bottom: 0;
+}

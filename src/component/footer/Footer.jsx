@@ -2,6 +2,9 @@ import React from 'react'
 import './footer.css'
 
 const Footer = () => {
+
+    const currentYear = new Date().getFullYear();
+
     return (
         <>
             <footer id="footer" class="footer">
@@ -60,10 +63,18 @@ const Footer = () => {
 
                 <div class="container mt-4">
                     <div class="copyright">
-                        &copy; Copyright <strong><span>assignmenthelperth.com</span></strong>. All Rights Reserved
+                        &copy; Copyright 2010 - {currentYear} <strong><span>assignmenthelperth.com</span></strong>. All Rights Reserved
                     </div>
                 </div>
             </footer >
+            <div className="container-fluid bg">
+                <div className="disc">
+                    <p>
+                        <strong>Disclaimer : </strong>
+                        All academic content provided by nursingassignmenthelp.au, including assignments, essays, papers, and presentations, is intended for reference only. We strictly disapprove of plagiarism and expect users to use these resources for their own writing purposes.
+                    </p>
+                </div>
+            </div>
         </>
     )
 }

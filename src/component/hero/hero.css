@@ -124,7 +124,10 @@
     line-height: 1;
     color: rgba(255, 255, 255, 0.6);
 }
-
+.hero .icon-box .icon img{
+    height: 60px;
+    width: 100%;
+}
 .hero .icon-box:hover {
     background: #009786;
 }
@@ -138,4 +141,26 @@
     border-radius: 20px;
     max-height: 500px;
     overflow: hidden;
+}
+
+.rating_main{
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+}
+.rating_inner{
+    display: flex;
+    padding: 5px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.rating{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+    margin-right: .5rem;
+}
+.rate_star span{
+    margin-top: 2rem;
+    color: goldenrod;
 }
