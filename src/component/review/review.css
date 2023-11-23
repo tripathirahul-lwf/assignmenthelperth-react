@@ -1,3 +1,4 @@
+
 .testimonials .testimonial-wrap {
     padding-left: 10px;
 }
@@ -66,21 +67,6 @@
     margin: 15px auto 15px auto;
 }
 
-.testimonials .swiper-pagination {
-    margin-top: 20px;
-    position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: rgba(0, 0, 0, 0.2);
-    opacity: 1;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: var(--color-primary);
-}
 
 @media (max-width: 767px) {
     .testimonials .testimonial-wrap {
@@ -96,4 +82,14 @@
         position: static;
         left: auto;
     }
+}
+.fa-quote-left{
+    font-size: 26px;
+    margin-right: 1rem;
+    color: var(--color-primary);
+}
+.fa-quote-right{
+    font-size: 26px;
+    margin-left: 1rem;
+    color: var(--color-primary);
 }

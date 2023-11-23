@@ -5,7 +5,7 @@ import './contact.css'
 const Contact = () => {
     return (
         <>
-            <section id="contact" class="contact">
+            <section id="contact" class="contact section-bg">
                 <div class="container" data-aos="fade-up">
 
                     <div class="info-container">

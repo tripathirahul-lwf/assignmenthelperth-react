@@ -47,7 +47,9 @@ h5,
 h6 {
   font-family: var(--font-primary);
 }
-
+ul{
+  list-style: none;
+}
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -62,13 +64,12 @@ section {
 
 .section-header {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .section-header h2 {
   font-size: 32px;
   font-weight: 600;
-  margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
 }

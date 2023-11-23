@@ -1,28 +1,20 @@
 import './App.css';
-import About from './component/about/About';
-import Contact from './component/contact/Contact';
-import Content from './component/content/Content';
-import Faq from './component/faq/Faq';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Footer from './component/footer/Footer';
 import Header from './component/header/Header';
-import Hero from './component/hero/Hero';
-import Review from './component/review/Review';
-import Services from './component/services/Services';
-import Steps from './component/step/Steps';
+import Home from './component/Home';
+
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Steps />
-      <About />
-      <Services />
-      <Content />
-      <Review />
-      <Faq />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="" element={<Home/>} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

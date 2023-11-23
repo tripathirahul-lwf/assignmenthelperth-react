@@ -1,0 +1,23 @@
+ol li{
+    margin-left: 30px;
+    padding-left: 10px;
+}
+ol li::marker{
+    font-size: 16px;
+    font-weight: 700;
+    color: #008374;
+}
+.seoText ul li {
+    position: relative;
+    padding: 0  30px 0;
+    margin-top: .5rem;
+}
+.seoText ul li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.seoText ul li span i{
+    font-size: 18px;
+    color: #008374;
+}

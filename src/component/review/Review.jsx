@@ -10,12 +10,10 @@ const Review = () => {
     return (
         <>
 
-            <section id="testimonials" className="testimonials">
-                <div className="container" data-aos="fade-up">
-
+            <section id="review" className="testimonials section-bg">
+                <div className="container">
                     <div className="section-header">
                         <h2>Testimonials</h2>
-                        <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
                     </div>
 
                     <div className="slides-3 swiper">
@@ -23,46 +21,37 @@ const Review = () => {
                             <Swiper
                                 spaceBetween={20}
                                 slidesPerView={3}
-                          
+
                                 loop={true} pagination={{
                                     "clickable": true
                                 }}
                                 breakpoints={{
                                     // when window width is >= 640px
-                                    320:{
+                                    320: {
                                         slidesPerView: 1,
                                     },
                                     640: {
-                                        
+
                                         slidesPerView: 1,
                                     },
                                     // when window width is >= 768px
                                     768: {
-                                       
+
                                         slidesPerView: 2,
                                     },
-                                    1024:{
-                                        slidesPerView : 3 ,
+                                    1024: {
+                                        slidesPerView: 3,
                                     }
                                 }}
                             >
                                 <SwiperSlide><div className="swiper-slide">
                                     <div className="testimonial-wrap">
                                         <div className="testimonial-item">
-                                            <div className="d-flex align-items-center">
-                                                <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img flex-shrink-0" alt="" />
-                                                <div>
-                                                    <h3>Saul Goodman</h3>
-                                                    <h4>Ceo &amp; Founder</h4>
-                                                    <div className="stars">
-                                                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
+
                                             <p>
-                                                <i className="bi bi-quote quote-icon-left"></i>
-                                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                                                <i className="bi bi-quote quote-icon-right"></i>
+                                                <i className="fa-solid fa-quote-left"></i>
+                                                I was overburdened with multiple assignments which seemed to be next to impossible before the deadline. Without wasting time any further, I approached Assignment Help Perth, recommended by a friend, and believe me my assignments were completed without any errors before the deadline. What a help indeed!!!
+                                               <i className="fa-solid fa-quote-right"></i>
                                             </p>
                                         </div>
                                     </div>
@@ -70,20 +59,10 @@ const Review = () => {
                                 <SwiperSlide> <div className="swiper-slide">
                                     <div className="testimonial-wrap">
                                         <div className="testimonial-item">
-                                            <div className="d-flex align-items-center">
-                                                <img src="assets/img/testimonials/testimonials-2.jpg" className="testimonial-img flex-shrink-0" alt="" />
-                                                <div>
-                                                    <h3>Sara Wilsson</h3>
-                                                    <h4>Designer</h4>
-                                                    <div className="stars">
-                                                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <p>
-                                                <i className="bi bi-quote quote-icon-left"></i>
-                                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                                                <i className="bi bi-quote quote-icon-right"></i>
+                                                <i className="fa-solid fa-quote-left"></i>
+                                                I had an engineering dynamics assignment and the questions went straight above my head. Perplexed, I looked for immediate help on Google and found this assignment help in Hobart. Within 3 hours of contacting them, they handed me over the assignment that too with no errors. I will recommend this help.
+                                               <i className="fa-solid fa-quote-right"></i>
                                             </p>
                                         </div>
                                     </div>
@@ -91,20 +70,10 @@ const Review = () => {
                                 <SwiperSlide><div className="swiper-slide">
                                     <div className="testimonial-wrap">
                                         <div className="testimonial-item">
-                                            <div className="d-flex align-items-center">
-                                                <img src="assets/img/testimonials/testimonials-3.jpg" className="testimonial-img flex-shrink-0" alt="" />
-                                                <div>
-                                                    <h3>Jena Karlis</h3>
-                                                    <h4>Store Owner</h4>
-                                                    <div className="stars">
-                                                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <p>
-                                                <i className="bi bi-quote quote-icon-left"></i>
-                                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                                                <i className="bi bi-quote quote-icon-right"></i>
+                                                <i className="fa-solid fa-quote-left"></i>
+                                                The chemical equations in the chemistry assignment were irking me a lot. Even after too many efforts I failed to understand the concept so I decided to look for the best assignment help in Perth and came across this website; wow what an assistance they provided. Will love to seek assistance from them in the future!
+                                               <i className="fa-solid fa-quote-right"></i>
                                             </p>
                                         </div>
                                     </div>
@@ -112,20 +81,10 @@ const Review = () => {
                                 <SwiperSlide> <div className="swiper-slide">
                                     <div className="testimonial-wrap">
                                         <div className="testimonial-item">
-                                            <div className="d-flex align-items-center">
-                                                <img src="assets/img/testimonials/testimonials-4.jpg" className="testimonial-img flex-shrink-0" alt="" />
-                                                <div>
-                                                    <h3>Matt Brandon</h3>
-                                                    <h4>Freelancer</h4>
-                                                    <div className="stars">
-                                                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <p>
-                                                <i className="bi bi-quote quote-icon-left"></i>
-                                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore.
-                                                <i className="bi bi-quote quote-icon-right"></i>
+                                                <i className="fa-solid fa-quote-left"></i>
+                                                Assignment Help Perth completed my Java assignment and I was even praised by my professor for the remarkable work. This elevated my respect for the online assignment help Hobart they helped me with!
+                                               <i className="fa-solid fa-quote-right"></i>
                                             </p>
                                         </div>
                                     </div>
@@ -133,20 +92,22 @@ const Review = () => {
                                 <SwiperSlide><div className="swiper-slide">
                                     <div className="testimonial-wrap">
                                         <div className="testimonial-item">
-                                            <div className="d-flex align-items-center">
-                                                <img src="assets/img/testimonials/testimonials-5.jpg" className="testimonial-img flex-shrink-0" alt="" />
-                                                <div>
-                                                    <h3>John Larson</h3>
-                                                    <h4>Entrepreneur</h4>
-                                                    <div className="stars">
-                                                        <i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i><i className="bi bi-star-fill"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <p>
-                                                <i className="bi bi-quote quote-icon-left"></i>
-                                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore.
-                                                <i className="bi bi-quote quote-icon-right"></i>
+                                                <i className="fa-solid fa-quote-left"></i>
+                                                My business analytics assignment required lots of charts and tables which required going through a lot of data. The best assignment help Perth excels here too. They not only helped me complete my assignment but even explained it to me. Good job Assignment help Perth!
+                                               <i className="fa-solid fa-quote-right"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div></SwiperSlide>
+                                <SwiperSlide><div className="swiper-slide">
+                                    <div className="testimonial-wrap">
+                                        <div className="testimonial-item">
+
+                                            <p>
+                                                <i className="fa-solid fa-quote-left"></i>
+                                                My Essay assignment required a lot of brainstorming as it had to be the best for my good grades in English Literature. After looking for the assignment help in Perth I finally ended up with them. To my surprise, the essay had zero flaws which surpassed my expectations. A big sigh of relief and huge thanks to Assignment Help Perth!
+                                               <i className="fa-solid fa-quote-right"></i>
                                             </p>
                                         </div>
                                     </div>
@@ -156,7 +117,6 @@ const Review = () => {
                         </div>
                         <div className="swiper-pagination"></div>
                     </div>
-
                 </div>
             </section>
         </>

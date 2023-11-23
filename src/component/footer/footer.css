@@ -1,7 +1,7 @@
 .footer {
     font-size: 14px;
     background-color: var(--color-primary);
-    padding: 50px 0;
+    padding: 50px 0 20px;
     color: white;
 }
 
@@ -96,7 +96,15 @@
 .footer .footer-contact p {
     line-height: 26px;
 }
+.footer .footer-c{
+    margin-left: 5px;
+    color: #fff;
+}
+.footer .footer-c:hover{
+    text-decoration: underline;
+    cursor: pointer;
 
+}
 .footer .copyright {
     text-align: center;
 }
@@ -122,4 +130,9 @@
 }
 .disc p{
     margin-bottom: 0;
+}
+@media screen and (max-width: 576px){
+    .footer-contact.text-center{
+        text-align: left;
+    }
 }

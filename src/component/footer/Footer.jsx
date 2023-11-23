@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 
@@ -12,10 +13,10 @@ const Footer = () => {
                 <div class="container">
                     <div class="row gy-4">
                         <div class="col-lg-5 col-md-12 footer-info">
-                            <a href="index.html" class="logo d-flex align-items-center">
+                            <Link to="/" class="logo d-flex align-items-center">
                                 <span>Impact</span>
-                            </a>
-                            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                            </Link>
+                            <p>Get exceptional academic success with Assignment Help Perth today! Our knowledgeable staff aims at making your experience of acquiring education exceptional. Trust us with accurate assignments and prompt delivery. Your success is our priority. Reach us today and see how you can become better in your academics.</p>
                             <div class="social-links d-flex mt-4">
                                 <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                                 <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -23,56 +24,31 @@ const Footer = () => {
                                 <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
-
-                        <div class="col-lg-2 col-6 footer-links">
-                            <h4>Useful Links</h4>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Terms of service</a></li>
-                                <li><a href="#">Privacy policy</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-2 col-6 footer-links">
-                            <h4>Our Services</h4>
-                            <ul>
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">Web Development</a></li>
-                                <li><a href="#">Product Management</a></li>
-                                <li><a href="#">Marketing</a></li>
-                                <li><a href="#">Graphic Design</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                        <div className="col-lg-2"></div>
+                        <div class="col-lg-4 col-md-12 footer-contact">
                             <h4>Contact Us</h4>
                             <p>
-                                A108 Adam Street <br />
-                                New York, NY 535022<br />
-                                United States <br /><br />
-                                <strong>Phone:</strong> +1 5589 55488 55<br />
-                                <strong>Email:</strong> info@example.com<br />
+                            Endeavour Hills Victoria <br />
+                            Australia PO Box: 3802<br />
+                            Australia <br /><br />
+                                <strong>Phone:</strong><a className='footer-c' href="/tel:61488896118">+61 4888 96 118</a> <br />
+                                <strong>Email:</strong> <a className='footer-c' href="mailto:help@learnwithfraternity.com">help@assignmenthelpperth.com</a><br />
                             </p>
-
                         </div>
-
                     </div>
                 </div>
 
                 <div class="container mt-4">
                     <div class="copyright">
-                        &copy; Copyright 2010 - {currentYear} <strong><span>assignmenthelperth.com</span></strong>. All Rights Reserved
+                        &copy; Copyright 2010 - {currentYear} <strong><span>assignmenthelpperth.com</span></strong>. All Rights Reserved
                     </div>
                 </div>
             </footer >
             <div className="container-fluid bg">
-                <div className="disc">
-                    <p>
-                        <strong>Disclaimer : </strong>
-                        All academic content provided by assignmenthelperth.au, including assignments, essays, papers, and presentations, is intended for reference only. We strictly disapprove of plagiarism and expect users to use these resources for their own writing purposes.
-                    </p>
+                <div className="container">
+                    <div className="disc">
+                        <p><strong>Disclaimer : </strong>All academic content provided by assignmenthelpperth.au, including assignments, essays, papers, and presentations, is intended for reference only. We strictly disapprove of plagiarism and expect users to use these resources for their own writing purposes.</p>
+                    </div>
                 </div>
             </div>
         </>
