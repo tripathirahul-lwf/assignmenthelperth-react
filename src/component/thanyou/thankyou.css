@@ -1,0 +1,34 @@
+.thank {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.thankyou_img {
+    max-height: 500px;
+}
+
+.thankyou_img img {
+    height: 100%;
+    width: 100%;
+}
+.thank_text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #162c3e;
+}
+.button .btn{
+    padding: 10px 55px;
+    border-radius: 6px;
+    background-color: #008374;
+    font-size: 18px;
+    color: #fff;
+    transition: all .4s ease-in-out;
+}
+.button .btn:hover{
+    background-color: #006557;
+
+}

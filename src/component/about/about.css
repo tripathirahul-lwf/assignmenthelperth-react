@@ -37,6 +37,7 @@
   display: inline-block;
   border-bottom: 4px solid #eeeeee;
   transition: all 0.5s;
+  text-transform: capitalize;
 }
 
 .single-about p {

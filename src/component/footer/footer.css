@@ -48,8 +48,8 @@
     border-color: #fff;
 }
 
-.footer h4 {
-    font-size: 16px;
+.footer h5 {
+    font-size: 25px;
     font-weight: bold;
     position: relative;
     padding-bottom: 12px;
@@ -130,6 +130,9 @@
 }
 .disc p{
     margin-bottom: 0;
+}
+.footer_subject{
+    padding-left: 0;
 }
 @media screen and (max-width: 576px){
     .footer-contact.text-center{

@@ -42,4 +42,12 @@
     .services_wrapper .service_name{
         width: 100%;
     }
+    .services {
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .services_wrapper{
+        padding: 5px 10px;
+    }
 }

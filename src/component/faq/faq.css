@@ -36,7 +36,7 @@
     padding: 20px 50px 20px 20px;
     font-weight: 600;
     border: 0;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     color: var(--color-default);
     text-align: left;
@@ -70,4 +70,9 @@
     border-radius: 10px;
     background: #fff;
     box-shadow: none;
+}
+@media screen and (max-width: 480px) {
+    .faq .accordion-button {
+       font-size: 18px;
+    }
 }

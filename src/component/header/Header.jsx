@@ -31,7 +31,7 @@ const Header = () => {
 
     return (
         <>
-            <section id="topbar" className="topbar d-flex align-items-center">
+            {/* <section id="topbar" className="topbar d-flex align-items-center">
                 <div className="container d-flex justify-content-center justify-content-md-between">
                     <div className="contact-info d-flex align-items-center">
                         <i className="bi bi-envelope d-flex align-items-center"><Link to="mailto:help@learnwithfraternity.com">help@assignmenthelpperth.com</Link></i>
@@ -44,7 +44,7 @@ const Header = () => {
                         <Link to="/" className="linkedin"><i className="bi bi-linkedin"></i></Link>
                     </div>
                 </div>
-            </section >
+            </section > */}
 
             <header id="header" className={`${isSticked ? "header sticked" : "header"} d-flex align-items-center`}>
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-between">

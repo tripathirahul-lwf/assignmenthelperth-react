@@ -93,3 +93,23 @@
     margin-left: 1rem;
     color: var(--color-primary);
 }
+@media only screen and (min-width: 1400px) and (max-width: 1920px) {
+    .testimonials .testimonial-item {
+        height: 230px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .testimonials .testimonial-item {
+        height: 290px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .testimonials .testimonial-item {
+        height: 360px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .testimonials .testimonial-item {
+        height: 320px;
+    }
+}

@@ -12,7 +12,7 @@ const Footer = () => {
 
                 <div class="container">
                     <div class="row gy-4">
-                        <div class="col-lg-5 col-md-12 footer-info">
+                        <div class="col-lg-5 col-md-12 order-2 order-lg-0 footer-info">
                             <Link to="/" class="logo d-flex align-items-center">
                                 <span>Impact</span>
                             </Link>
@@ -25,15 +25,15 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="col-lg-2"></div>
-                        <div class="col-lg-4 col-md-12 footer-contact">
-                            <h4>Contact Us</h4>
-                            <p>
-                            Endeavour Hills Victoria <br />
-                            Australia PO Box: 3802<br />
-                            Australia <br /><br />
-                                <strong>Phone:</strong><a className='footer-c' href="/tel:61488896118">+61 4888 96 118</a> <br />
-                                <strong>Email:</strong> <a className='footer-c' href="mailto:help@learnwithfraternity.com">help@assignmenthelpperth.com</a><br />
-                            </p>
+                        <div class="col-lg-4 col-md-12 order-1 order-lg-2 footer-contact">
+                            <h5>Subjects</h5>
+                            <ul className='footer_subject'>
+                                <li>Physics Assignment Help</li>
+                                <li>English Literature Assignment Help</li>
+                                <li>Chemistry Assignment Help</li>
+                                <li>Mathematics Assignment Help</li>
+                                <li>PROGRAMMING Assignment Help</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

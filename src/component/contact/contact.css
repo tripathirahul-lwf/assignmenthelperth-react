@@ -52,7 +52,10 @@
     margin-bottom: 0;
     font-size: 14px;
 }
-
+.contact .info-item p a{
+    
+    color: #fff;
+}
 .contact .info-item:hover i {
     background: #fff;
     color: var(--color-primary);

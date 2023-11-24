@@ -26,7 +26,7 @@ const Feature = () => {
                                 <div className="icon">
                                     <img src={direction} alt="Thorough directions review icon" loading='lazy'/>
                                 </div>
-                                <h3>Thorough directions review</h3>
+                                <h4>Thorough directions review</h4>
                                 <p>Your instructions will be carefully read by our online assignment help Perth writers to ensure that what we write is what you want! If you have any additional information and want to discuss about it with our assignment expert Perth then, all you need to do is dial us right away!</p>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ const Feature = () => {
                                 <div className="icon">
                                 <img src={imitation} alt="Accurate imitation of style icon" loading='lazy'/>
                                 </div>
-                                <h3>Accurate imitation of style</h3>
+                                <h4>Accurate imitation of style</h4>
                                 <p>The writer assigned to handle your tasks will ensure to provide you with personalised assistance by imitating your writing style, nobody will be able to tell that you used our online assignment help in Perth.</p>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ const Feature = () => {
                                 <div className="icon">
                                 <img src={investigation} alt="Comprehensive investigation icon" loading='lazy'/>
                                 </div>
-                                <h3>Comprehensive investigation</h3>
+                                <h4>Comprehensive investigation</h4>
                                 <p>At this stage, our assignment help Perth`s expert carry out a comprehensive investigation by examining scholarly publications and academic sources.</p>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ const Feature = () => {
                                 <div className="icon">
                                 <img src={clearification} alt="Client clarifications icon" loading='lazy'/>
                                 </div>
-                                <h3>Client clarifications</h3>
+                                <h4>Client clarifications</h4>
                                 <p>Your assignment expert will reach out to you with clarifications and ask you any relevant questions to produce the best possible result. Assignment Help Perth gives you a chance to request updates and drafts directly from your writer, so feel free to seek out for queries if you have.</p>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const Feature = () => {
                                 <div className="icon">
                                 <img src={plagiarism} alt="Plagiarism check icon" loading='lazy'/>
                                 </div>
-                                <h3>Plagiarism check</h3>
+                                <h4>Plagiarism check</h4>
                                 <p>At this stage, assignment help services in Perth make the final touches and complete the writing. After a thorough round of proofreading and checking your assignment for AI, we then take it forward to check plagiarism. </p>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ const Feature = () => {
                                 <div className="icon">
                                 <img src={revision} alt="Final revisions icon" loading='lazy'/>
                                 </div>
-                                <h3>Final revisions</h3>
+                                <h4>Final revisions</h4>
                                 <p>Once you receive the final draft, if there is anything a student’s wants us to rectify, Perth Assignment Help allows them to seek free assistance of experts until they feel it is ready for submission</p>
                             </div>
                         </div>

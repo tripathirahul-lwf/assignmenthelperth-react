@@ -15,7 +15,7 @@ const Contact = () => {
                                     <i class="bi bi-geo-alt flex-shrink-0"></i>
                                     <div>
                                         <h4>Location:</h4>
-                                        <p>A108 Adam Street, New York, NY 535022</p>
+                                        <p>Endeavour Hills Victoria, Australia PO Box: 3802, Australia</p>
                                     </div>
                                 </div>
                             </div>
@@ -24,7 +24,7 @@ const Contact = () => {
                                     <i class="bi bi-envelope flex-shrink-0"></i>
                                     <div>
                                         <h4>Email:</h4>
-                                        <p>info@example.com</p>
+                                        <p><a href="mailto:help@learnwithfraternity.com">help@assignmenthelpperth.com</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@ const Contact = () => {
                                     <i class="bi bi-phone flex-shrink-0"></i>
                                     <div>
                                         <h4>Call:</h4>
-                                        <p>+1 5589 55488 55</p>
+                                        <p><a href="tel:61488896118">+61 4888 96 118</a> </p>
                                     </div>
                                 </div>
                             </div>

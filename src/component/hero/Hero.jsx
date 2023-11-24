@@ -4,7 +4,7 @@ import Embedform from '../embedForm/Embedform'
 import trust from '../img/trust.png'
 import google from '../img/google.png'
 import site from '../img/sitejabber.png'
-import capterra from '../img/Capterra-grey.png'
+import capterra from '../img/capterra.png'
 
 const Hero = () => {
     return (
@@ -16,7 +16,7 @@ const Hero = () => {
                             <h1>Assignment Help Perth: The Best Way to Unburden the Stress of Assignments!</h1>
                             <p>Are the assignment deadlines disturbing your sleep? Does the nightmare of incomplete assignments haunt you in the middle of the night? Don't worry, we at Assignment Help Perth have your back whether it is the deadline pressure burdening you or the fact that you missed your assignment accidentally!</p>
                             <div className="d-flex justify-content-center justify-content-lg-start">
-                                <a href="/" className="btn-get-started">Connect With Expert</a>
+                                <a href="https://api.whatsapp.com/send?phone=61493535569&text=I%20Need%20Help!!" target='/blank' className="btn-get-started">Connect With Expert</a>
                             </div>
                         </div>
                         <div className="col-lg-6 ">
@@ -61,7 +61,7 @@ const Hero = () => {
                                     </div>
                                     <div className="rating_main">
                                         <div className="rating_inner">
-                                            <div className="rating">4.9/5</div>
+                                            <div className="rating">4.7/5</div>
                                             <div className="star">
                                                 <div className="rate_star">
                                                     <span><svg width="45" height="45" fill="currentColor" viewBox="0 0 24 24"
@@ -86,7 +86,7 @@ const Hero = () => {
                                     </div>
                                     <div className="rating_main">
                                         <div className="rating_inner">
-                                            <div className="rating">4.95/5</div>
+                                            <div className="rating">4.8/5</div>
                                             <div className="star">
                                                 <div className="rate_star">
                                                     <span><svg width="45" height="45" fill="currentColor" viewBox="0 0 24 24"
@@ -111,7 +111,7 @@ const Hero = () => {
                                     </div>
                                     <div className="rating_main">
                                         <div className="rating_inner">
-                                            <div className="rating">4.9/5 </div>
+                                            <div className="rating">4.7/5 </div>
                                             <div className="star">
                                                 <div className="rate_star">
                                                     <span><svg width="45" height="45" fill="currentColor" viewBox="0 0 24 24"

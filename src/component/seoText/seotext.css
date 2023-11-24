@@ -18,6 +18,11 @@ ol li::marker{
     left: 0;
 }
 .seoText ul li span i{
-    font-size: 18px;
+    font-size: 16px;
     color: #008374;
+}
+@media screen and (max-width: 480px) {
+    ol li{
+        margin-top: .4rem; 
+    }
 }

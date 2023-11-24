@@ -47,9 +47,11 @@ h5,
 h6 {
   font-family: var(--font-primary);
 }
-ul{
+
+ul {
   list-style: none;
 }
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -68,10 +70,11 @@ section {
 }
 
 .section-header h2 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 600;
   padding-bottom: 20px;
   position: relative;
+  text-transform: capitalize;
 }
 
 .section-header h2:after {
@@ -85,6 +88,21 @@ section {
   right: 0;
   bottom: 0;
   margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+  section {
+    padding: 40px 0;
+  }
+
+
+  .section-header h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: capitalize;
+  }
 }
 
 .section-header p {
