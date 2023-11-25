@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './header.css'
 import { Link } from 'react-router-dom';
+import logo from '../img/logo.png'
 
 const Header = () => {
     const [isSticked, setIsSticked] = useState(false);
@@ -49,7 +50,7 @@ const Header = () => {
             <header id="header" className={`${isSticked ? "header sticked" : "header"} d-flex align-items-center`}>
                 <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
                     <Link to="/" className="logo d-flex align-items-center">
-                        <h1>Assignment<span>.</span></h1>
+                        <img src={logo} alt="assignmenthelperth logo" loading='lazy' />
                     </Link>
                     <nav id="navbar" className={clicked ? "navbar active" : "navbar"}>
                         <ul>

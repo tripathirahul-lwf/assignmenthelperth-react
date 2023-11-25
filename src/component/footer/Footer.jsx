@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.css'
 import { Link } from 'react-router-dom';
+import logo from '../img/logo.png'
 
 const Footer = () => {
 
@@ -14,7 +15,7 @@ const Footer = () => {
                     <div class="row gy-4">
                         <div class="col-lg-5 col-md-12 order-2 order-lg-0 footer-info">
                             <Link to="/" class="logo d-flex align-items-center">
-                                <span>Impact</span>
+                                <img src={logo} alt="assignmenthelpperth logo" loading='lazy' />
                             </Link>
                             <p>Get exceptional academic success with Assignment Help Perth today! Our knowledgeable staff aims at making your experience of acquiring education exceptional. Trust us with accurate assignments and prompt delivery. Your success is our priority. Reach us today and see how you can become better in your academics.</p>
                             <div class="social-links d-flex mt-4">
@@ -28,11 +29,13 @@ const Footer = () => {
                         <div class="col-lg-4 col-md-12 order-1 order-lg-2 footer-contact">
                             <h5>Subjects</h5>
                             <ul className='footer_subject'>
-                                <li>Physics Assignment Help</li>
-                                <li>English Literature Assignment Help</li>
-                                <li>Chemistry Assignment Help</li>
-                                <li>Mathematics Assignment Help</li>
-                                <li>PROGRAMMING Assignment Help</li>
+                                <li>Nursing</li>
+                                <li>Marketing</li>
+                                <li>Management</li>
+                                <li>Finance</li>
+                                <li>Law</li>
+                                <li>Science</li>
+                                <li>Programming</li>
                             </ul>
                         </div>
                     </div>
